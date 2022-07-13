@@ -12,7 +12,7 @@ const App:React.FC = () => {
   const tododo = useAppSelector(state => state.todos.list);
   
   const [text, setText] = useState<string>("");
-  
+  // comment
   const dispatch = useAppDispatch();
   function handleOnDragEnd(result: DropResult) {
     
