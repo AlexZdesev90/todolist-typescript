@@ -24,7 +24,7 @@ const TodoList: React.FC = () => {
                             {...provided.draggableProps}
                             {...provided.dragHandleProps}
                             ref={provided.innerRef}>
-                            <motion.li
+                            <motion.li className="list"
                     
                                 initial={{ x: 1500 }}
                                 animate={{ x: 0 }}
